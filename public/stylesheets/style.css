@@ -1,0 +1,32 @@
+p {
+  width: 225px;
+  height: 20px;
+  position: relative;
+  text-shadow: 5px 3px 4px silver;
+  color:yellow;
+  background-color: green ;
+  
+  animation-name: colorchange;
+  animation-duration:5s;
+  
+  animation-name: colorchange;
+  animation-duration:5s;
+  
+  -moz-animation-name: colorchange;
+  -moz-animation-duration:5s;
+  
+  -webkit-animation-duration:5s;
+  -webkit-animation-name: colorchange;
+}
+@-moz-keyframes colorchange{
+  0% {background-color: green}
+  25% {background-color:blue}
+  50% {background-color:red}
+  100% {background-color:violet}
+}
+@-webkit-keyframes colorchange{
+  0% {background-color: green}
+  25% {background-color:blue}
+  50% {background-color:red}
+  100% {background-color:violet} 
+}
